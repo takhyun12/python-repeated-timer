@@ -19,6 +19,8 @@ this repository is still under construction.
 
 ## Usage:
 
+If you want to use a repeated timer in a typical python code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+
 ```shell
 $ python
 ```
