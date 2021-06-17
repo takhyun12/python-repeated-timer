@@ -9,7 +9,7 @@ this repository is still under construction.
 ## Features:
 * Thread Timer를 기반으로 주기적으로 반복되는 이벤트를 실행하는 비 차단 방식으로 구현
 
-![reactor pattern](https://user-images.githubusercontent.com/41291493/122346053-82611d00-cf83-11eb-9725-13a01681eb64.png)
+![reactor pattern](https://user-images.githubusercontent.com/41291493/122346179-a3c20900-cf83-11eb-91a6-8eca01fa4c7d.png)
 
 * 표준 라이브러리만 사용하여 외부 종속성 없음
 * 타이머의 start(), stop()이 자유로우며, 다중 호출에도 안전함
@@ -33,6 +33,10 @@ $ python
 ## Usage for GUI(TKinter)
 
 If you want to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+
+## Performance metrics:
+
+this repository is still under construction.
 
 ## TODO / Known Issues:
 * this repository is still under construction.
