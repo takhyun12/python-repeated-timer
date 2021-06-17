@@ -1,7 +1,7 @@
 # python-repeated-timer
 
 <div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_social.png">
+  ![repeated timer logo](https://user-images.githubusercontent.com/41291493/122342770-f1d50d80-cf7f-11eb-87ec-844bcc1343d5.png)
 </div>
 
 [![Python](https://img.shields.io/pypi/pyversions/tensorflow.svg?style=plastic)](https://badge.fury.io/py/tensorflow)
