@@ -5,22 +5,15 @@ __version__ = '0.0.1'
 import time
 from time import sleep
 from threading import Timer
-
-
-class Repeated_Timer_Event:
-    @staticmethod
-    def timer_tick(*args: tuple, **kwargs: tuple) -> None:
-        # You can put your code in here
-        print('timer tick!')
-        return [None]
+from typing import Callable
 
 
 class Repeated_Timer(object):
-    def __init__(self: object, interval: int, duration: int, *args: tuple, **kwargs: tuple) -> object:
+    def __init__(self: object, interval: int, duration: int, function: Callable, *args: tuple, **kwargs: tuple) -> object:
         self._timer = None
         self.interval = interval
         self.duration = duration
-        self.timer_tick = Repeated_Timer_Event.timer_tick
+        self.timer_tick = function
         self.args = args
         self.kwargs = kwargs
         self.is_running = False
