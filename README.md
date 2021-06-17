@@ -25,7 +25,7 @@ $ python
 
 ``` python
 >>> from repeated_timer import Repeated_Timer
->>> def def timer_tick(*args: tuple, **kwargs: tuple):
+>>> def timer_tick(*args: tuple, **kwargs: tuple):
 >>>   # You can put your code in here
 >>>   print('timer tick!')
 >>>
