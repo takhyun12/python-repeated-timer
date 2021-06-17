@@ -27,7 +27,7 @@ $ python
 
 ## Usage for GUI(TKinter)
 
-If you wnat to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+If you want to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
 ## TODO / Known Issues:
 * this repository is still under construction.
