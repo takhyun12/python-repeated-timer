@@ -7,10 +7,15 @@
 this repository is still under construction.
 
 ## Features:
-* a
-* b
-* c
-* d
+* Thread Timer를 기반으로 주기적으로 반복되는 이벤트를 실행하는 비 차단 방식으로 구현
+
+![reactor pattern](https://user-images.githubusercontent.com/41291493/122345732-24343a00-cf83-11eb-9941-242c4a28404d.png)
+
+* 표준 라이브러리만 사용하여 외부 종속성 없음
+* 타이머의 start(), stop()이 자유로우며, 다중 호출에도 안전함
+* timer 이벤트에 인수를 원하는대로 자유롭게 지정하여 사용할 수 있음
+* interval, duration을 원하는대로 쉽게 수정할 수 있음
+* tkinter 등 GUI 프로그래밍에서 GUI Freezing 문제가 발생하지 않음
 
 ## Usage:
 
