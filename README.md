@@ -30,7 +30,7 @@ $ python
 >>> # repeated_timer.stop()
 ```
 
-## Usage for GUI(TKinter)
+## Usage for GUI(with TKinter)
 
 If you want to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
