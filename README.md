@@ -7,15 +7,15 @@
 this repository is still under construction.
 
 ## Features:
-* Thread Timer를 기반으로 주기적으로 반복되는 이벤트를 실행하는 비 차단 방식으로 구현
+* Python Repeated Timer is a open-source library based on Thread Timer, and this asynchronously triggers the event every N seconds.
 
 ![reactor pattern](https://user-images.githubusercontent.com/41291493/122346179-a3c20900-cf83-11eb-91a6-8eca01fa4c7d.png)
 
-* 표준 라이브러리만 사용하여 외부 종속성 없음
-* 타이머의 start(), stop()이 자유로우며, 다중 호출에도 안전함
-* timer 이벤트에 인수를 원하는대로 자유롭게 지정하여 사용할 수 있음
-* interval, duration을 원하는대로 쉽게 수정할 수 있음
-* tkinter 등 GUI 프로그래밍에서 GUI Freezing 문제가 발생하지 않음
+* For this only uses standard-library, no additional library is required.
+* Easy to implement by simply using functions such as start(), stop(). Also, this timer is stable on multiple calls.
+* It is possible to insert the argument so you can customize the timer as you want.
+* You may change the interval & duration of the timer.
+* No freezing issue occurs with GUI libraries such as Tkinter.
 
 ## Usage:
 
