@@ -11,7 +11,7 @@ this repository is still under construction.
 
 ![reactor pattern](https://user-images.githubusercontent.com/41291493/122346179-a3c20900-cf83-11eb-91a6-8eca01fa4c7d.png)
 
-* For this only uses standard-library, no additional library is required.
+* For this only uses python standard-library, no additional library is required.
 * Easy to implement by simply using functions such as start(), stop(). Also, this timer is stable on multiple calls.
 * It is possible to insert the argument so you can customize the timer as you want.
 * You may change the interval & duration of the timer.
