@@ -18,10 +18,15 @@ class App(tk.Tk):
         self.label = tk.Label(self, text=f"타이머 테스트")
         self.label.grid(column=0, row=0, sticky="", padx=(80, 0), pady=(30, 0))
 
+        self.clock = tk.Label(self, text="None")
+        self.clock.grid(column=0, row=1, sticky="", padx=(80, 0), pady=(30, 0))
+
         self.start_button = tk.Button(self, text="Start", width=30, overrelief="solid",
                                       font=('Roboto', 16, 'bold'),
                                       command=lambda: self.start_button_clicked())
-        self.start_button.grid(column=0, row=1, sticky="", padx=(80, 0), pady=(30, 0))
+        self.start_button.grid(column=0, row=2, sticky="", padx=(80, 0), pady=(30, 0))
+
+        self.update_clock()
 
     def start_button_clicked(self):
         if self.start_button['text'] == 'Start':
@@ -48,6 +53,10 @@ class App(tk.Tk):
                 pass
             finally:
                 self.destroy()
+
+    def update_clock(self):
+        self.clock.configure(text=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+        self.after(1000, self.update_clock)
 
 
 def timer_tick(*args: tuple, **kwargs: dict):
