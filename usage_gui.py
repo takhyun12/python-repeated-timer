@@ -50,7 +50,7 @@ class App(tk.Tk):
                 self.destroy()
 
 
-def timer_tick(*args: tuple, **kwargs: tuple):
+def timer_tick(*args: tuple, **kwargs: dict):
     # timer tick event!!
     # You can put your code in here
     print('timer tick!')

@@ -9,7 +9,7 @@ from typing import Callable
 
 
 class Repeated_Timer(object):
-    def __init__(self: object, interval: int, duration: int, function: Callable, *args: tuple, **kwargs: tuple) -> object:
+    def __init__(self: object, interval: int, duration: int, function: Callable, *args: tuple, **kwargs: dict) -> object:
         self._timer = None
         self.interval = interval
         self.duration = duration
