@@ -32,7 +32,7 @@ $ python
 >>>   print('timer tick!')
 >>>   print(remaining_time)  # You can use remaining_time
 >>>
->>> repeated_timer = Repeated_Timer(interval=1, duration=30, function=timer_tick, args1='args1', args2='args2')
+>>> repeated_timer = Repeated_Timer(interval=1, duration=30, function=timer_tick, args1='args1')
 >>> repeated_timer.start()
 >>> # repeated_timer.stop()
 ```
