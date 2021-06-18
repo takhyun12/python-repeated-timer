@@ -39,7 +39,9 @@ $ python
 
 ## Usage for GUI(with TKinter)
 
-If you want to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+![tkinter_tutorial](https://user-images.githubusercontent.com/41291493/122524359-01715680-d053-11eb-9292-10927552e96c.png)
+
+If you want to use repeated timer with tkinter, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage_gui.py)
 
 ## Performance metrics:
 
