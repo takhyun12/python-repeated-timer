@@ -1,9 +1,10 @@
 from repeated_timer import Repeated_Timer
 
 
-def timer_tick(*args: tuple, **kwargs: dict):
+def timer_tick(remaining_time: int, *args: tuple, **kwargs: dict) -> None:
     # You can put your code in here
     print('timer tick!')
+    print(remaining_time)
 
 
 if __name__ == '__main__':

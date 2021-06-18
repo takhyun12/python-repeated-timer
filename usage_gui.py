@@ -1,4 +1,3 @@
-import datetime
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
@@ -15,7 +14,7 @@ class App(tk.Tk):
 
         self.repeated_timer = None  # Declares a repeated_timer variable inside a Tk object.
 
-        self.label = tk.Label(self, text=f"타이머 테스트")
+        self.label = tk.Label(self, text=f'Remaining(sec) : {10}', font=('Roboto', 16))
         self.label.grid(column=0, row=0, sticky="", padx=(80, 0), pady=(30, 0))
 
         self.start_button = tk.Button(self, text="Start", width=30, overrelief="solid",
@@ -26,7 +25,7 @@ class App(tk.Tk):
     def start_button_clicked(self):
         if self.start_button['text'] == 'Start':
             '''Start Event'''
-            self.repeated_timer = Repeated_Timer(interval=1, duration=30, function=timer_tick,
+            self.repeated_timer = Repeated_Timer(interval=1, duration=10, function=timer_tick,
                                                  label=self.label)  # Assign object to variable repeated_timer
             self.repeated_timer.start()   # Timer Start
 
@@ -50,11 +49,14 @@ class App(tk.Tk):
                 self.destroy()
 
 
-def timer_tick(*args: tuple, **kwargs: dict):
+def timer_tick(remaining_time: int, *args: tuple, **kwargs: dict):
     # timer tick event!!
     # You can put your code in here
     # print('timer tick!', args, kwargs)
-    kwargs['label'].configure(text=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    kwargs['label'].configure(text=f'Remaining(sec) : {remaining_time}')
+
+    if remaining_time <= 0:
+        App.start_button_clicked(app)
 
 
 if __name__ == '__main__':

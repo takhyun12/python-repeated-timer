@@ -22,7 +22,7 @@ class Repeated_Timer(object):
     def _run(self) -> None:
         self.is_running = False
         self.start()
-        self.timer_tick(*self.args, **self.kwargs)
+        self.timer_tick(self.duration, *self.args, **self.kwargs)
 
     def start(self) -> None:
         if not self.is_running:
