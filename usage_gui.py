@@ -10,15 +10,18 @@ class App(tk.Tk):
         super().__init__()
 
         self.title("Repeated timer with Tkinter")
-        self.geometry("600x250")
+        self.geometry("530x200")
         self.resizable(0, 0)
 
         self.repeated_timer = None  # Declares a repeated_timer variable inside a Tk object.
 
+        self.label = tk.Label(self, text=f"타이머 테스트")
+        self.label.grid(column=0, row=0, sticky="", padx=(80, 0), pady=(30, 0))
+
         self.start_button = tk.Button(self, text="Start", width=30, overrelief="solid",
                                       font=('Roboto', 16, 'bold'),
                                       command=lambda: self.start_button_clicked())
-        self.start_button.pack()
+        self.start_button.grid(column=0, row=1, sticky="", padx=(80, 0), pady=(30, 0))
 
     def start_button_clicked(self):
         if self.start_button['text'] == 'Start':
