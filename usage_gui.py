@@ -18,21 +18,16 @@ class App(tk.Tk):
         self.label = tk.Label(self, text=f"타이머 테스트")
         self.label.grid(column=0, row=0, sticky="", padx=(80, 0), pady=(30, 0))
 
-        self.clock = tk.Label(self, text="None")
-        self.clock.grid(column=0, row=1, sticky="", padx=(80, 0), pady=(30, 0))
-
         self.start_button = tk.Button(self, text="Start", width=30, overrelief="solid",
                                       font=('Roboto', 16, 'bold'),
                                       command=lambda: self.start_button_clicked())
         self.start_button.grid(column=0, row=2, sticky="", padx=(80, 0), pady=(30, 0))
 
-        self.update_clock()
-
     def start_button_clicked(self):
         if self.start_button['text'] == 'Start':
             '''Start Event'''
             self.repeated_timer = Repeated_Timer(interval=1, duration=30, function=timer_tick,
-                                                 args1='args1', args2='args2')  # Assign object to variable repeated_timer
+                                                 label=self.label)  # Assign object to variable repeated_timer
             self.repeated_timer.start()   # Timer Start
 
             self.start_button['text'] = 'Stop'
@@ -54,15 +49,12 @@ class App(tk.Tk):
             finally:
                 self.destroy()
 
-    def update_clock(self):
-        self.clock.configure(text=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-        self.after(1000, self.update_clock)
-
 
 def timer_tick(*args: tuple, **kwargs: dict):
     # timer tick event!!
     # You can put your code in here
-    print('timer tick!')
+    # print('timer tick!', args, kwargs)
+    kwargs['label'].configure(text=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
 
 
 if __name__ == '__main__':
