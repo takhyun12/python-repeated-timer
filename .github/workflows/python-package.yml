@@ -26,4 +26,4 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Check Version
       run: |
-        python usage_gui.py
+        python usage.py
