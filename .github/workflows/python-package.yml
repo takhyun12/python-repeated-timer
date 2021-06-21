@@ -26,4 +26,5 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Check Version
       run: |
-        python uage_gui.py
+        ls
+        python ../../uage_gui.py
