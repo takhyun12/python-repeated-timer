@@ -13,7 +13,7 @@ this repository is still under construction.
 
 * For this only uses python standard-library, no additional library is required.
 * Easy to implement by simply using functions such as start(), stop(). Also, this timer is stable on multiple calls.
-* timer_tick()의 process time이 timer의 interval과 duration에 영향을 주지 않음
+* No matter how heavy timer_tick() is, the timer's interval & duration won't be affected.
 * It is possible to insert the argument so you can customize the timer as you want.
 * You may change the interval & duration of the timer.
 * No freezing issue occurs with GUI libraries such as Tkinter.
