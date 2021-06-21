@@ -32,7 +32,7 @@ To install the current release (python 2x Support):
 $ pip install python-repeated-timer-2x
 ```
 
-## Usage(python 3x):
+## Usage:
 
 If you want to use a repeated timer in a python 3x code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
@@ -51,8 +51,6 @@ $ python
 >>> repeated_timer.start()
 >>> # repeated_timer.stop()
 ```
-
-## Usage(python 2x):
 
 If you want to use a repeated timer in a python 3x code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
