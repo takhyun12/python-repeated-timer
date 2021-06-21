@@ -2,7 +2,8 @@
 
 ![repeated timer logo](https://user-images.githubusercontent.com/41291493/122342770-f1d50d80-cf7f-11eb-87ec-844bcc1343d5.png)
 
-[![Python](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue?style=plastic)](https://badge.fury.io/py/tensorflow)
+![Python](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue?style=plastic)
+![PyPI](https://badge.fury.io/py/tensorflow.svg)
 
 this repository is still under construction.
 
