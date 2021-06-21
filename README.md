@@ -34,7 +34,7 @@ $ pip install python-repeated-timer-2x
 
 ## Usage:
 
-If you want to use a repeated timer in a python 3x code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+If you want to use a repeated timer in a python 3x, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
 ```shell
 $ python
@@ -52,7 +52,7 @@ $ python
 >>> # repeated_timer.stop()
 ```
 
-If you want to use a repeated timer in a python 3x code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+If you want to use a repeated timer in a python 2x, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
 ```shell
 $ python
