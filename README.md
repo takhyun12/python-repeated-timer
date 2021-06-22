@@ -20,7 +20,7 @@ this repository is still under construction.
 * No freezing issue occurs with GUI libraries such as Tkinter.
 
 ## Install
-To install the current release):
+To install the current release:
 
 ```shell
 $ pip install python-repeated-timer
