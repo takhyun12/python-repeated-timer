@@ -19,22 +19,16 @@ this repository is still under construction.
 * You may change the interval & duration of the timer.
 * No freezing issue occurs with GUI libraries such as Tkinter.
 
-## Install (~ing)
-To install the current release (python 3x Support):
+## Install
+To install the current release):
 
 ```shell
 $ pip install python-repeated-timer
 ```
 
-To install the current release (python 2x Support):
-
-```shell
-$ pip install python-repeated-timer-2x
-```
-
 ## Usage:
 
-If you want to use a repeated timer in a python 3x, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
+If you want to use a repeated timer in a python code, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
 
 ```shell
 $ python
@@ -51,14 +45,6 @@ $ python
 >>> repeated_timer.start()
 >>> # repeated_timer.stop()
 ```
-
-If you want to use a repeated timer in a python 2x, see this [tutorials](https://github.com/takhyun12/python-repeated-timer/blob/main/usage.py)
-
-```shell
-$ python
-```
-
-this repository is still under construction.
 
 ## Usage for GUI(with TKinter)
 
