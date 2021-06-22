@@ -2,7 +2,7 @@
 
 ![repeated timer logo](https://user-images.githubusercontent.com/41291493/122342770-f1d50d80-cf7f-11eb-87ec-844bcc1343d5.png)
 
-![Python](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
+![Python](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
 ![PyPI](https://badge.fury.io/py/tensorflow.svg)
 
 python-repeated-timer는 파이썬 표준 라이브러리만을 사용하여 구현된 고성능의 타이머이며, interval과 duration을 사용자가 원하는대로 지정하여 반복되는 행위를 수행합니다.
