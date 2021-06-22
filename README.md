@@ -5,7 +5,9 @@
 ![Python](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
 ![PyPI](https://badge.fury.io/py/tensorflow.svg)
 
-python-repeated-timer is a open-source and highly performing timer using only standard-libraries, and users may change the interval and duration of the event as they wish.
+python-repeated-timer is a open-source & highly performing timer using only standard-libraries, 
+and users may change the interval and duration of the event as they wish.
+
 Without any additional thread, GUI freezing issue won't be happening. 
 Also, performance of the timer won't be affected by any event. 
 
