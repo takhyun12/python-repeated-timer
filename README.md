@@ -5,11 +5,11 @@
 ![Python](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
 ![PyPI](https://badge.fury.io/py/tensorflow.svg)
 
-Python-Repeated-Timer is an open-source & highly performing timer using only standard-libraries.\
-Users may change the interval and duration of the event as they wish.
+Python-Repeated-Timer is an open-source & highly performing timer using only standard-libraries.
 
-Without any additional thread, GUI freezing issue won't be happening,\
-and performance of the timer won't be affected by any event. 
+Users may change the `interval` and `duration` of the event as they wish.
+
+This code is GUI freezing issue won't be happening, and performance of the timer won't be affected by any event.
 
 ## Features:
 * Python Repeated Timer is a open-source library based on Thread Timer, and this asynchronously triggers the event every N seconds.
