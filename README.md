@@ -2,12 +2,14 @@
 
 ![repeated timer logo](https://user-images.githubusercontent.com/41291493/122342770-f1d50d80-cf7f-11eb-87ec-844bcc1343d5.png)
 
-![Python](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
+![Python](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)
 ![PyPI](https://badge.fury.io/py/tensorflow.svg)
 
-python-repeated-timer는 파이썬 표준 라이브러리만을 사용하여 구현된 고성능의 타이머이며, interval과 duration을 사용자가 원하는대로 지정하여 반복되는 행위를 수행합니다.
-별도의 쓰레드 사용없이도 GUI 등에서 GUI 프리징 이슈가 발생하지 않으며, 반복적으로 수행하는 코드로부터 발생하는 지연에 영향을 받지도 않습니다.
+Python-Repeated-Timer is an open-source & highly performing timer using only standard-libraries.\
+Users may change the interval and duration of the event as they wish.
 
+Without any additional thread, GUI freezing issue won't be happening,\
+and performance of the timer won't be affected by any event. 
 
 ## Features:
 * Python Repeated Timer is a open-source library based on Thread Timer, and this asynchronously triggers the event every N seconds.
