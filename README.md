@@ -23,7 +23,7 @@ This code is GUI freezing issue won't be happening, and performance of the timer
 * You may change the interval & duration of the timer.
 * No freezing issue occurs with GUI libraries such as Tkinter.
 
-## Install (~ing)
+## Install:
 To install the current release:
 
 ```shell
